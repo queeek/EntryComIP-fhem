@@ -4,14 +4,14 @@
 #     98_EntryComIP.pm
 #     A FHEM Perl module to handle 2N EntryCom IP devices.
 #
-#     Copyright by Frieder Reinhold
-#     e-mail: reinhold@trigon-media.com
+#     Copyright by Ina Kupp
+#     e-mail: ina@ikupp.de
 #
 #     Based and inspired by
 #       GEOFANCY by Julian Pawlowski
 #       FRITZBOX by Torsten Poitzsch
 #       OPENWEATHER by Torsten Poitzsch
-#       ENTRYCOMIP by Frieder Reinhold
+#       ENTRYCOMIP by Frieder Reinhold (original version)
 #
 #     Module is based on the HTTP-API of the 2n Helios device.
 #     You need at least an integration license.
@@ -36,9 +36,13 @@
 #     along with fhem.  If not, see <http://www.gnu.org/licenses/>.
 #
 #
-# Version: 0.0.1
+# Version: 0.0.2
 #
 # Major Version History:
+# - 0.0.2 - 2018-12-02
+# -- Features:
+# --- getCameraPicture
+#
 # - 0.0.1 - 2016-01-28
 # -- First release
 # -- Features:
